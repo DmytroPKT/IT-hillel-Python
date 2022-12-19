@@ -1,7 +1,7 @@
 """1. Написать калькулятор для простых операций(+,-,*,/,**),
 Операнды и оператор вводятся с клавиатуры отдельно(отдельные переменные)"""
 
-
+s
 first_digit = float(input("""Welcome to calculator. 
 Choose first digit, onward  press:
 '+' for Addition; 

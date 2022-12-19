@@ -1,7 +1,7 @@
 """3. Определить является ли введенное с клавиатуры число простым
 (делится без остатка только на себя и единицу)"""
 
-
+s
 input_number = int(input('Enter number: '))             # Entering a number
 if input_number == 2:                                   # Input number is 2
     print('2 is a prime number')

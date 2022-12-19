@@ -3,7 +3,7 @@
  "Маша нашла в лесу {К} гриб...". K пользователь вводит с клавиатуры.
 Например: Маша нашла в лесу 7 грибОВ.
 Маша нашла в лесу 32 грибА."""
-
+s
 mushrooms = int(input('Enter the number of mushrooms: '))           # Input quantity of mushrooms.
 ending = ''                                                         # End of sentence. Empty by default.
 if mushrooms % 10 == 1 and mushrooms % 100 != 11:                   # Ending for 1,21,31.. etc.
