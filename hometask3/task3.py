@@ -6,6 +6,9 @@ input_number = int(input('Enter number: '))             # Entering a number
 if input_number == 2:                                   # Input number is 2
     print('2 is a prime number')
     exit()
+elif input_number == 1:                                 # Input number is 1
+    print('1 is not a prime number')
+    exit()
 for i in range(2, input_number):                        # Loop with a range of numbers
     if input_number % i == 0:                           # Number is divisible by other numbers
         print(f'{input_number} is not a prime number')
